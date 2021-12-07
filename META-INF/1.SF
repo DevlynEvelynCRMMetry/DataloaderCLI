@@ -1,0 +1,81 @@
+Signature-Version: 1.0
+Created-By: 11.0.10 (Azul Systems, Inc.)
+SHA-256-Digest-Manifest: 6gCRqCrxmWOy5L4Nuru3e3uP7gYGWLgLsBaAw7e8M5c=
+SHA-256-Digest-Manifest-Main-Attributes: AQmM8CCzMA6W6dte7fNClDbnlu/1iWG
+ Q9/rvptAghqw=
+
+Name: samples/conf/accountInsertMap.sdl
+SHA-256-Digest: lmQz8lBDRqalNh5I+Rpfp4/hjNx2a7Ehbn8IGBFu4As=
+
+Name: samples/conf/accountExtractMap.sdl
+SHA-256-Digest: pc++ytmlhGIP62bqMFcOV/y3wgE4CPiMDx2M8x9qGQU=
+
+Name: configs/log-conf.xml
+SHA-256-Digest: 7Yzs0rGil5j8f3PxHwpsQPZf8+S5HQFt7hB0HJVtr+8=
+
+Name: samples/conf/database-conf.xml
+SHA-256-Digest: UrI0QmhWYQMJr1KBu3764eX4juLw+xwDdRlJVG6NfQc=
+
+Name: samples/conf/process-conf.xml
+SHA-256-Digest: 7vFIbcAEZGcfUjrqfLmBKu1WTU4yRyXm120GozFSdR4=
+
+Name: configs/config.properties
+SHA-256-Digest: f8Q8nac3oxcT4UyWInNQ0oEgY2jGnsXC4Hx8Ouu2ctk=
+
+Name: bin/encrypt.bat
+SHA-256-Digest: rtf/cmWKlZihcZstGoPg3eFCIdtVPDuVtxoNCzcO6YI=
+
+Name: samples/conf/sample.key
+SHA-256-Digest: WQN2VLZBi9L71JuF1MXzPPdDU3Ixbkfpq3KrQRcv/ck=
+
+Name: samples/status/success0413060133.csv
+SHA-256-Digest: APQPviC9xOrZDv7pgSb1NBNxXL7/nSVkn7tftc5fjN4=
+
+Name: samples/conf/accountMasterMap.sdl
+SHA-256-Digest: eKNEVGtILUKgcKXQ8SXnfD6vMR52nK7yTod+FDyNuMs=
+
+Name: samples/conf/accountUpdateMap.sdl
+SHA-256-Digest: oFdgQTQNnZwjZKLXPBBMYwyVSkJJ68+tfraaJDc4Omw=
+
+Name: samples/data/opportunityData.csv
+SHA-256-Digest: SqWmxrnPVxssr05nloC4vq2pIcQgJu8wopqTxM/x1CE=
+
+Name: dataloader-52.0.0-uber.jar
+SHA-256-Digest: qZUuv61VlK9DlA2bKYGXsm+xAAFjgaEjimXkA+EUMdw=
+
+Name: dataloader.bat
+SHA-256-Digest: ziVUfmEpJwKGmB/8Q7bzRhEs8kROWa++zy/xBsJGlqk=
+
+Name: dataloader.ico
+SHA-256-Digest: 9yAW+MG1xQIZ0yJSKETHRjkr/FPRPoAZf2GR/kGaRAE=
+
+Name: bin/process.bat
+SHA-256-Digest: rKY03SstZnkM7jxsU657cdSspHwCk49UdjA/E+6ndrM=
+
+Name: samples/status/accountMasterSoapTrace.log
+SHA-256-Digest: 2v4BbEZSiXZVzPdTE83O+/lPmWsEWUo23sV9QCThYKM=
+
+Name: install.bat
+SHA-256-Digest: nKvlVrjmW+AI6c+WUIBjiVIAif13lwruLZemee+m+6o=
+
+Name: samples/conf/accountExtractToDbMap.sdl
+SHA-256-Digest: ROgW9gkL79BI+6XbQrbbHc51sl4dTHuO294pAlYvtOY=
+
+Name: samples/conf/opportunityUpdateMap.sdl
+SHA-256-Digest: aC3zgc1K+UXa5LnFqFYwZbie/lLkbO9ZL7WQgaeho+o=
+
+Name: samples/conf/opportunityInsertMap.sdl
+SHA-256-Digest: wnYx+ngrILv7Y+Q4Ie0jLOV0T+qE4i4MMDZeUQEBjZw=
+
+Name: samples/conf/opportunityUpsertMap.sdl
+SHA-256-Digest: usTenlUqi1ZfAQDPkIRaNfHjoqhw2C2We/AD9MAg+lo=
+
+Name: samples/status/error0413060133.csv
+SHA-256-Digest: PL/lW4/J0/v5KM//r62TJ0ZbtlODg/tylxaW7Cvki1o=
+
+Name: samples/conf/log-conf.xml
+SHA-256-Digest: axeT1aO4coa4WSkFgX1u37HkiFLH860t5niK91bmphE=
+
+Name: samples/data/accountData.csv
+SHA-256-Digest: v6NDL8UyNr51CNtmdqd7p69FfhPm6kVXEjrbgzamrb0=
+

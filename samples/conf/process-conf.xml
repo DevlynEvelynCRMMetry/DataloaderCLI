@@ -1,0 +1,65 @@
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>
+    <bean id="accountInsert" class="com.salesforce.dataloader.process.ProcessRunner" scope="prototype">
+        <description>accountInsert job gets the account record from the CSV file 
+            and inserts it into Salesforce.</description>
+        <property name="name" value="accountInsert" />
+        <property name="configOverrideMap">
+            <map>
+                <entry key="sfdc.debugMessages" value="true" />
+                <entry key="sfdc.debugMessagesFile" value="C:\Users\denzy\dataloader\v52.0.0\samples\status\accountInsertSoapTrace.log" />
+                <entry key="sfdc.endpoint" value="https://hardwarelumberltd--phase1dev.my.salesforce.com" />
+                <entry key="sfdc.username" value="denzyl.evelyn@crmmetry.com.hl-phase-dev" />
+                <!--Password below has been encrypted using key file, 
+                    therefore, it will not work without the key setting: 
+                    process.encryptionKeyFile.
+                    The password is not a valid encrypted value, 
+                    please generate the real value using the encrypt.bat utility  684682e4160a45b17889b9c34c6a8a5b87e28716ff156710bc64830c00b043be-->
+                <entry key="sfdc.password" value="dd439b6dea04258d3b77c43d363cd71314f075a4de4571d7a73789aa8160588797675ce1193dd298b0baa81d9b5523dc5a66cd7582d87cef1b504999224b74e4" />
+                <entry key="process.encryptionKeyFile" value="C:\Users\denzy\dataloader\HnLKey.key"/>
+                <entry key="sfdc.timeoutSecs" value="600" />
+                <entry key="sfdc.loadBatchSize" value="200" />
+                <entry key="sfdc.externalIdField" value="Account_Key__c" />
+                <entry key="sfdc.entity" value="Account" />
+                <entry key="process.operation" value="upsert" />
+                <entry key="process.mappingFile" value="C:\Users\denzy\dataloader\v52.0.0\samples\conf\accountInsertMap.sdl" />
+                <entry key="dataAccess.name" value="C:\Users\denzy\dataloader\v52.0.0\samples\data\Customer_Loyalty_Accounts.csv" />
+                <entry key="process.outputSuccess" value="C:\Users\denzy\dataloader\v52.0.0\samples\status\success0413060133Accounts.csv" />
+                <entry key="process.outputError" value="C:\Users\denzy\dataloader\v52.0.0\samples\status\error0413060133Accounts.csv" />
+                <entry key="dataAccess.type" value="csvRead" />
+                <entry key="process.initialLastRunDate" value="2005-12-01T00:00:00.000-0800" />
+            </map>
+        </property>
+    </bean>
+    <bean id="contactInsert" class="com.salesforce.dataloader.process.ProcessRunner" scope="prototype">
+        <description>contactInsert job gets the Contact record from the CSV file 
+            and inserts it into Salesforce.</description>
+        <property name="name" value="contactInsert" />
+        <property name="configOverrideMap">
+            <map>
+                <entry key="sfdc.debugMessages" value="true" />
+                <entry key="sfdc.debugMessagesFile" value="C:\Users\denzy\dataloader\v52.0.0\samples\status\contactInsertSoapTrace.log" />
+                <entry key="sfdc.endpoint" value="https://hardwarelumberltd--phase1dev.my.salesforce.com" />
+                <entry key="sfdc.username" value="denzyl.evelyn@crmmetry.com.hl-phase-dev" />
+                <!--Password below has been encrypted using key file, 
+                    therefore, it will not work without the key setting: 
+                    process.encryptionKeyFile.
+                    The password is not a valid encrypted value, 
+                    please generate the real value using the encrypt.bat utility  684682e4160a45b17889b9c34c6a8a5b87e28716ff156710bc64830c00b043be-->
+                <entry key="sfdc.password" value="7c01ff0fad375cd81bcce0f8a87a88d83c4105cc05ae013fb278e737dd9b591484f685f133e9051fba27c8c1ee424ff53ca6a87a51fadbbd9b155081b33da917" />
+                <entry key="process.encryptionKeyFile" value="C:\Users\denzy\dataloader\HnLKey.Key" />
+                <entry key="sfdc.timeoutSecs" value="600" />
+                <entry key="sfdc.loadBatchSize" value="200" />
+                <entry key="sfdc.externalIdField" value="Contact_Key_ID__c" />
+                <entry key="sfdc.entity" value="Contact" />
+                <entry key="process.operation" value="upsert" />
+                <entry key="process.mappingFile" value="C:\Users\denzy\dataloader\v52.0.0\samples\conf\contactInsertMap.sdl" />
+                <entry key="dataAccess.name" value="C:\Users\denzy\dataloader\v52.0.0\samples\data\Customer_Loyalty_Contacts.csv" />
+                <entry key="process.outputSuccess" value="C:\Users\denzy\dataloader\v52.0.0\samples\status\success0413060133Contacts.csv" />
+                <entry key="process.outputError" value="C:\Users\denzy\dataloader\v52.0.0\samples\status\error0413060133Contacts.csv" />
+                <entry key="dataAccess.type" value="csvRead" />
+                <entry key="process.initialLastRunDate" value="2005-12-01T00:00:00.000-0800" />
+            </map>
+        </property>
+    </bean>
+</beans>
